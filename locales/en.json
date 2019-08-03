@@ -22,6 +22,8 @@
         "Withdrawal": "Withdrawal",
         "No data to display": "No data to display",
         "Digital Asset Exchange": "Digital Asset Exchange",
+        // "original dev coins" means projects/teams that have done some development themselves.
+        // We have a preference for coins that aren't complete clones.
         "US based digital asset exchange with trading UI and JSON API. We list original development coins.": "US based digital asset exchange with trading UI and JSON API. We list original development coins.",
         "Auth Code": "Auth Code",
         "2FA Code": "2FA Code",
@@ -68,6 +70,7 @@
         "Loading orders": "Loading orders",
         "Order ID": "Order ID",
         "Created": "Created",
+        // Describes the menu dropdown button on the balances page. Used for screen readers/tooltips
         "Toggle Dropdown": "Toggle Dropdown",
         "Deposit": "Deposit",
         "copied to clipboard!": "copied to clipboard!",
@@ -81,12 +84,19 @@
         "Unverified": "Unverified",
         "Withdraw limit": "Withdraw limit",
         "now": "now",
+        // Used for unexpected object types. For example, deposit statuses returned from server
+        // are expected to be 'credited' or 'pending', but if the status doesn't match the 
+        // expected value it is 'unknown'
         "Unknown": "Unknown",
+        // Used for unexpected server success responses. Similar to above, but we know that
+        // the action succeeded
         "Unknown Success Code": "Unknown Success Code",
         "Captcha Required": "Captcha Required",
         "Captcha must be completed": "Captcha must be completed",
         "Two factor authentication is required to use this feature": "Two factor authentication is required to use this feature",
         "Email confirmation sent! Please check your email": "Email confirmation sent! Please check your email",
+        // Managed withdraw addresses can have a short description
+        // You can see how it is used: https://qtrade.io/settings/manage_addresses
         "Label": "Label",
         "Continue": "Continue"
     },
@@ -140,6 +150,8 @@
     },
     "ReferralProgram.moreDetails": {
         "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code": "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code",
+        // Referral links add a '?ref=asdf' to the URL. That ref code may be used on any page:
+        // "https://qtrade.io/?ref=asdf" or "https://qtrade.io/signup?ref=asdf" etc
         "You may link to any page on the website with your referral code and it will work as expected.": "You may link to any page on the website with your referral code and it will work as expected.",
         "After 1 year you will no longer recieve a payouts for a user referred with your code.": "After 1 year you will no longer recieve a payouts for a user referred with your code.",
         "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.": "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.",
@@ -166,7 +178,11 @@
         "Cancel": "Cancel"
     },
     "Home": {
+        // Description of the exchange used in HTML meta tags. Shows up on search engine results, discord links, etc
+        // "up and coming" is a colloquial way to say "new and growing"
         "US based exchange trading up and coming cryptocurrencies": "US based exchange trading up and coming cryptocurrencies",
+        // "original dev coins" means projects/teams that have done some development themselves.
+        // We have a preference for coins that aren't complete clones.
         "We list original dev coins": "We list original dev coins",
         "Learn more about the coins we list": "Learn more about the coins we list",
         "Some coins are changing the way we think about distributed ledger technology": "Some coins are changing the way we think about distributed ledger technology",
@@ -263,6 +279,8 @@
         "Your Recent Orders": "Your Recent Orders"
     },
     "MarketOrderbook": {
+        // "Row total" is shown on the market page for Buy orders and Sell orders
+        // It means the total BTC value for the row (Price BTC * Amount Currency)
         "Row Total": "Row Total",
         "Sum": "Sum"
     },
@@ -298,9 +316,14 @@
         "Password reset successfully!": "Password reset successfully!"
     },
     "TokenRedeem": {
+        // Can be viewed on "https://qtrade.io/token"
+        // This page is used to redeem JWT tokens,
+        // JWT tokens are a part of those long URLs used to confirm email addresses, reset passwords, etc
         "Token Redeem": "Token Redeem"
     },
     "OpenOrders": {
+        // Used as a header for a panel with order metrics/totals
+        // Seen here: https://qtrade.io/open_orders
         "Order Count": "Order Count",
         "Cancel Order": "Cancel Order",
         "Total Units": "Total Units",
@@ -331,6 +354,9 @@
         "Hide 0 Balances": "Hide 0 Balances",
         "Wallet": "Wallet",
         "Available balance": "Available balance",
+        // When an order is created that value is held in the order until it is filled or cancelled
+        // So if you have any open orders some of your balance will be 'in orders'
+        // Seen on balances page: https://qtrade.io/balances/BTC
         "In orders": "In orders",
         "Escrowed": "Escrowed",
         "Transactions": "Transactions",
