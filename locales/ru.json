@@ -1,0 +1,578 @@
+{
+    "Errors": {
+        "Failed to send email! Got error:": "Failed to send email! Got error:",
+        "Unknown error": "Неизвестная ошибка"
+    },
+    "common": {
+        "JSON": "JSON",
+        "Copy": "Копировать",
+        "CSV": "CSV",
+        "Export Data": "Экспорт данных",
+        "Download": "Скачать",
+        "Retry": "Повторить",
+        "Why am I getting this error?": "Почему я вижу эту ошибку?",
+        "Last Modified": "Последний раз изменено",
+        "Currencies": "Валюты",
+        "Currency": "Валюта",
+        "Markets": "Рынки",
+        "Market": "Рынок",
+        "Withdraw Fee": "Комиссия за вывод средств",
+        "Minimum Withdraw": "Минимальный вывод средств",
+        "Withdraw": "Вывести средства",
+        "Withdrawal": "Вывод средств",
+        "No data to display": "Нет данных для отображения",
+        "Digital Asset Exchange": "Биржа цифровых активов",
+        "US based digital asset exchange with trading UI and JSON API. We list original development coins.": "Американская биржа цифровых активов с удобным интерфейсом и поддержкой JSON API. Мы добавляем только качественные активы",
+        "Auth Code": "Код авторизации",
+        "2FA Code": "2FA Код",
+        "Cancel": "Отменить",
+        "Submit": "Отправить",
+        "Dismiss": "Отменить",
+        "Confirm": "Подтвердить",
+        "Enable": "Включить",
+        "Browse...": "Обзор...",
+        "Date": "Дата",
+        "Time": "Время",
+        "Price": "Цена",
+        "Total": "Сумма",
+        "Amount": "Количество",
+        "loginPrompt": "<0>Войти</0> или <2>создать аккаунт</2>",
+        "Balance": "Баланс",
+        "Balances": "Балансы",
+        "Bid": "Bid",
+        "Ask": "Ask",
+        "Last": "Last",
+        "Open": "Open",
+        "High": "High",
+        "Low": "Low",
+        "Close": "Close",
+        "Max": "Max",
+        "Open Orders": "Открытые ордера",
+        "Closed Orders": "Закрытые ордера",
+        "Buy Orders": "Ордера на покупку",
+        "Sell Orders": "Ордера на продажу",
+        "Order Type": "Тип ордера",
+        "Buy Limit": "Покупка по лимиту",
+        "Sell Limit": "Продажа по лимиту",
+        "Filter options": "Настройки фильтра",
+        "Recent first": "Сначала недавние",
+        "Oldest first": "Сначала старые",
+        "Highest Price": "Наивысшая цена",
+        "Lowest Price": "Низшая цена",
+        "Biggest Order": "Крупнейший ордер",
+        "Smallest Order": "Наименьший ордер",
+        "Clear filters": "Очистить фильтры",
+        "All": "Все",
+        "Load more": "Загрузить больше",
+        "All orders loaded": "Показаны все ордера",
+        "Loading orders": "Загрузка ордеров",
+        "Order ID": "ID ордера",
+        "Created": "Создан",
+        "Toggle Dropdown": "Выпадающий элемент",
+        "Deposit": "Депозит",
+        "copied to clipboard!": "скопировано в буфер обмена!",
+        "Download Image": "Загрузить изображение",
+        "Data": "Данные",
+        "Resend": "Отправить заново",
+        "Resubmit": "Отправить заново",
+        "Email": "Email",
+        "Verified": "Верифицирован",
+        "Not Verified": "Не верифицирован",
+        "Unverified": "Неверифицирован",
+        "Withdraw limit": "Лимит минимального вывода средств",
+        "now": "сейчас",
+        "Unknown": "Неизвестный",  
+        "Unknown Success Code": "Неизвестный код",
+        "Captcha Required": "Требуется капча",
+        "Captcha must be completed": "Пройдите проверку капчей",
+        "Two factor authentication is required to use this feature": "Для использования этой функции активируйте двухфакторную аутентификацию",
+        "Email confirmation sent! Please check your email": "Email с подтверждением был успешно отправлен! Пожалуйста, проверьте вашу почту",
+        "Label": "Label",
+        "Continue": "Продолжить"
+    },
+    "errorCodes": {
+        "invalid_timestamp": "Неверная дата",
+        "expired_signature": "Недействительная подпись",
+        "invalid_signature": "Неверная подпись",
+        "unknown_user": "Неизвестный пользователь",
+        "unknown_error": "Неизвестная ошибка"
+    },
+    "404": {
+        "Not Found": "Не найдено",
+        "Error 404": "Ошибка 404",
+        "The page you requested was not found on the server": "Страница, которую вы запрашиваете, не была найдена на этом сервере"
+    },
+    "429": {
+        "Rate limit exceeded": "Превышено ограничение запросов",
+        "try again in": "повторить через"
+    },
+    "503": {
+        "Maintenance": "Обслуживание",
+        "We are currently down for scheduled maintenance": "На данный момент мы проводим запланированное обслуживание"
+    },
+    "Disconnected": {
+        "Disconnected": "Отключен",
+        "You seem to be disconnected": "Похоже, что вы отключены"
+    },
+    "EmailConfirm": {
+        "Confirm your email address": "Подтвердить email адрес",
+        "Email Verified": "Email подтвержден",
+        "startVerification": "Начать верификацию <1>Уровень 1</1>"
+    },
+    "Signup": {
+        "Sign Up" : "Регистрация",
+        "Password": "Пароль",
+        "Pass Confirm": "Подтверждение пароля",
+        "ToSAgree": "Я согласен с <1>Условиями пользования</1> и <3>Политикой конфиденциальности</3>"
+    },
+    "ReferralProgram": {
+        "Referral Program": "Реферальная программа",
+        "The qTrade referral program allows you to receive 10% percent of trade commissions paid by your referrals.": "Реферальная программа qTrade позволяет получать 10% процентов от торговых комиссий, выплачиваемых вашими рефералами.",
+        "How it works": "Как это работает",
+        "More details": "Больше деталей",
+        "Important Notice": "Важное замечание"
+    },
+    "ReferralProgram.howItWorks": {
+        "howItWorks1":"Начните с посещения страницы <1> рефералов </1>. С этой страницы вы можете скопировать свою реферальную ссылку и отправить ее своим друзьям.",
+        "Your friends can visit the referral link and sign up for a qTrade account.": "Ваши друзья могут перейти по реферальной ссылке и зарегистрировать аккаунт на qTrade.",
+        "They will then complete their account and initiate buy or sell orders.": "После подтверждение аккаута они смогут выставлять ордера на покупку или продажу",
+        "howItWorks4": "В конце месяца вы получите награду на свой аккаунт в размере 10% от торговых комиссий, уплаченных вашими другом. Вы можете просмотреть прошлые выплаты на странице <1>рефералов</1>."
+    },
+    "ReferralProgram.moreDetails": {
+        "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code": "В случае, если кто-то зарегистрируется с помощью вашей ссылки, вы получаете вознаграждение, даже если он зарегистрируется в любое время в течение следующих 90 дней со своего компьютера или даже если он закроет браузер и вернется позже. Если же пользователь нажмет на чужую реферальную ссылку перед регистрацией, он задействует чужой код",
+        "You may link to any page on the website with your referral code and it will work as expected.": "You may link to any page on the website with your referral code and it will work as expected.",
+        "After 1 year you will no longer recieve a payouts for a user referred with your code.": "По прошествии одного года, вы больше не будете получать награды от пользователя, который зарегистрировался через вашу реферальную ссылку.",
+        "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.": "Количество реферальных друзей неограниченно, хотя мы оставляем за собой право корректировать или изменять правила реферальной программы в будущем.",
+        "Payments may not go out on the first, but when it does go out the payment period will be included in the payment details.": "Изначально награда может прийти не сразу, однако как только она будет отправлена, вы увидите период доставки в деталях платежа.",
+        "We check for duplicate or fake accounts and don't pay out referral bonuses on these accounts. Duplicate or shared financials will cause disqualification.": "Мы проверяем дубликаты или фейковые аккаунты и не выплачиваем реферальные бонусы этим аккаунты. Дубликаты или фейки будут заблокированы."
+    },
+    "ReferralProgram.notice": {
+        "Unfortunately we can't guarantee payout on every account you refer due to the limitations mentioned above and risk of fraud, but we make a good faith effort to do so whenever possible.": "К сожалению, мы не можем гарантировать выплату по каждому указанному вами рефералу из-за указанных выше ограничений и риска мошенничества, но мы делаем все возможное, что от нас зависит.",
+        "In addition, qTrade reserves the right to change the terms of the referral program at any time due to changing market conditions, risk of fraud, or other reasons. By participating in the referral program you acknowledge that receiving payouts is not guaranteed by qTrade": "Также qTrade оставляет за собой право изменить условия реферальной программы в любое время из-за изменений рыночных условий, риска мошенничества или по другим причинам. Участвуя в реферальной программе, вы подтверждаете, что qTrade не гарантирует получение выплат"
+    },
+    "Fees": {
+        "Fee Schedule": "Расписание комиссий",
+        "Market ID": "ID рынка",
+        "Pair": "Пара",
+        "Maker Fee": "Комиссия продавца",
+        "Taker Fee": "Комиссия покупателя"
+    },
+    "Status": {
+        "Site Status": "Статус веб-сайта",
+        "Status": "Статус",
+        "Enabled": "Включен",
+        "Disabled": "Выключен",
+        "Create": "Создать",
+        "Cancel": "Отменить"
+    },
+    "Home": {
+        "US based exchange trading up and coming cryptocurrencies": "US based exchange trading up and coming cryptocurrencies",
+        "We list original dev coins": "We list original dev coins",
+        "Learn more about the coins we list": "Узнайте больше об активах, которые мы размещаем",
+        "Some coins are changing the way we think about distributed ledger technology": "Некоторые активы меняют наше представление о том, как устроена технология децентрализованного хранилища",
+        "Learn more": "Узнать больше",
+        "Integration Made Easy": "Простая интеграция"
+    },
+    "Home.VEO": {
+        "Programmable state channels support decentralized betting, markets, and more": "Программируемые крипто-сообществом оракулы поддерживают децентрализованные ставки, рынки и многое другое",
+        "Futarchy-based oracle technology used for self-governance": "Основанная на футархии технология саморегуляции",
+        "Written in Erlang by Zack Hess, a developer of Augur and Aeternity": "Разработано с помощью Erlang Заком Хессем, создателем Augur и Aeternity"
+    },
+    "Home.SNOW": {
+        "Novel IO based POW scheme allows low power, ASIC resistant mining": "Novel IO основанный на POW протоколе, задействует низкое потребление и защиту от ASIC майнинга",
+        "Ready for quantum computers with \"quantum tough\" cryptography": "Спроектирован для квантовых компьютеров с \"высококвантовым\" криптошифрованием",
+        "Written in Java by Joseph Gleason, the developer of Satoshi Dice": "Создан в Java Джозеф Глисоном, создателем Satoshi Dice"
+    },
+    "Home.BIS": {
+        "First Python blockchain, written mostly by Jan Kučera": "Первый блокчейн на Python, создан, в основном, Яном Кучером",
+        "DApp support and thriving developer community rising from ease of development": "Поддержка DApp приложений в совокупности с процветающим сообществом и простотой разработки",
+        "Arbitrary structured transaction data allows easy expansion": "Произвольно-структурированные данные транзакционного типа, позволяющие простое масштабирование"
+    },
+    "Home.NYZO": {
+        "Original Proof of Diversity consensus mechanism, no PoW or PoS": "Оригинальный консенсусный механизм Proof of Diversity, никакого PoW или PoS",
+        "PoD and fast blocks provide very fast transaction finality": "PoD и быстрая генерация блоков обеспечивают быструю пропускную способность",
+        "Scalable, can support thousands of transactions/second": "Масштабируем, может поддерживать тысячи транзакций в секунду"
+    },
+    "Home.Integration": {
+        "submitToken": "Добавьте ваш токен в <1>листинг</1>",
+        "API": "Получите данные о торгах или даже добавьте собственный торговый бот с нашим <1>JSON API</1>",
+        "improveAPI": "Узнайте как <1>улучшить API вашего токена</1> для быстрой интеграции с нами",
+        "Or just write your own qTrade integration: Coming soon.": "Или просто создайте собственную qTrade интеграцию: Скоро."
+    },
+    "Home.Steps": {
+        "Get started in a few minutes": "Начните всего за пару минут",
+        "qTrade supports a variety of the most innovative digital currencies": "qTrade поддерживает разнообразие самых инновационных цифровых валют",
+        "Create your account": "Создайте аккаунт",
+        "Verify your identity": "Пройдите верификацию",
+        "Start buying and selling": "Начните торговлю",
+        "Get started": "Начать"
+    },
+    "App.ExpiredModal": {
+        "Session timeout": "Тайм-аут сессии",
+        "Log back in": "Войти заново"
+    },
+    "App.Nav": {
+        "Home": "Главная",
+        "Order History": "История ордера",
+        "Account": "Аккаунт",
+        "Verification": "Верификация",
+        "Change Password": "Изменить пароль",
+        "API Keys": "API ключи",
+        "Two Factor Auth": "Двухфакторная аутентификация",
+        "Account Activity": "Активность аккаунта",
+        "Referrals": "Рефералы",
+        "Manage Addresses": "Управление адресами",
+        "Logout": "Выйти"
+    },
+    "App.Footer": {
+        "Company": "Компания",
+        "About Us": "О нас",
+        "Terms of Service": "Условия пользования",
+        "Privacy Policy": "Политика конфиденциальности",
+        "AML Policy": "AML политика",
+        "Info": "Информация",
+        "Listing Guidelines": "Руководство по размещению",
+        "Listing Voting": "Голосование за размещение",
+        "Resources": "Документация",
+        "API Docs": "API Документация",
+        "Bug Bounty": "Bug Bounty",
+        "Contact": "Связаться",
+        "Support": "Поддержка"
+    },
+    "Login": {
+        "Login": "Войти",
+        "Sign In": "Войти",
+        "Forgot password?": "Забыли пароль?",
+        "Successfully logged in!": "Вход успешно осуществлен!"
+    },
+    "Market": {
+        "Trading is currently disabled on this market": "Торги на этом рынке временно недоступны",
+        "Cancelling orders is currently disabled on this market": "Отмена ордеров на этом рынке временно недоступна",
+        "24H Vol": "24ч объем"
+    },
+    "Market.detailsModal": {
+        "Market Details": "Деталь рынка",
+        "24 Hour Overview": "Обзор 24 часов",
+        "Change": "Изменения",
+        "Market Volume": "Рыночный объем",
+        "Base Volume": "Общий объем торгов",
+        "Spread": "Спред"
+    },
+    "UserOrderbook": {
+        "Remaining Units": "Осталось единиц",
+        "Your Recent Orders": "Ваши недавние ордера"
+    },
+    "MarketOrderbook": {
+        "Row Total": "Row Total", 
+        "Sum": "Сумма"
+    },
+    "UserBuySell": {
+        "Sell": "Продажа",
+        "Buy": "Покупка",
+        "Limit Order": "Лимит ордер"
+    },
+    "OrderForms": {
+        "Amount and Price are required fields": "Поля 'Количество' и 'Цена' необходимы для заполнения",
+        "orderCreated": "Ордер создан ({{filledPerc}}% filled)",
+        "Best Market Ask": "Лучший рыночный спрос",
+        "Best Market Bid": "Лучшее рыночное предложение",
+        "Max Fee": "Макс. комиссия",
+        "If your order executes as a taker this will be the fee. Maker orders are free": "Если ваш ордер принимает предложение, это будет комиссия. Ордера, создающие предложение, не облагаются комиссией",
+        "Place Buy Order": "Разместить ордер на покупку",
+        "Place Sell Order": "Разместить ордер на продажу",
+        "(est.)": "(est.)"
+    },
+    "PriceSanityModal": {
+        "Confirm Price": "Подтвердить цену",
+        "The price you've entered is substantially different from market price. Please confirm the following details are correct:": "Введенная вами цена существенно отличается от рыночной цены. Пожалуйста, подтвердите правильность следующей информации:",
+        "Price entered": "Выставлена цена",
+        "Market price": "Рыночная цена"
+    },
+    "MarketRecentTrades": {
+        "Recent Trades": "Недавние торги"
+    },
+    "ResetPassword": {
+        "Reset Password": "Сбросить пароль",
+        "New Password": "Новый пароль",
+        "Password reset email has been sent if there is an account with that email address": "Письмо для сброса пароля было отправлено на указанный email",
+        "Password reset successfully!": "Пароль успешно изменен!"
+    },
+    "TokenRedeem": {
+        "Token Redeem": "Token Redeem"
+    },
+    "OpenOrders": {
+        "Order Count": "Order Count",
+        "Cancel Order": "Отменить ордер",
+        "Total Units": "Сумма единиц", 
+        "Remaining Units Amount": "Количество оставшихся единиц",
+        "Price Per Unit": "Цена за единицу",
+        "Order cancelled successfully": "Ордер успешно отменен"
+    },
+    "OrderHistory": {
+        "Order History": "История ордера",
+        "Filled Order Summary": "Информация о заполненном ордере",
+        "Show Unfilled": "Показать незаполненные",
+        "Offered": "Предложено",
+        "Ordered": "Исполнено",
+        "Sold": "Продано",
+        "Bought": "Куплено",
+        "Received": "Получено",
+        "Spent": "Потрачено",
+        "Ordered Price": "Выставленная цена",
+        "Average Executed Price": "Средняя цена исполнения",
+        "Trades Executed": "Сделок исполнено",
+        "Close Reason": "Причина закрытия",
+        "Fee Charged": "Комиссия"
+    },
+    "Balances": {
+        "verificationWarning": "Ваш аккаунт еще не верифицирован! Завершите верификацию <1>Уровня 1</1>, чтобы увеличить лимит на снятие средств",
+        "withdrawLimit": "Лимит на снятие средств: ${{limit}} / день",
+        "Hide Delisted": "Спрятать снятые с размещения",
+        "Hide 0 Balances": "Спрятать нулевые балансы",
+        "Wallet": "Кошелек",
+        "Available balance": "Доступно",
+        "In orders": "In orders",
+        "Escrowed": "Депонируются",
+        "Transactions": "Переводы",
+        "All transactions loaded": "Загружены все переводы",
+        "Loading transactions": "Загрузка переводов",
+        "depositAddressWarning": "<0>Важно:</0> Отправляйте только {{longName}} на этот адрес! Отправка любого другого актива на этот адрес может привести к потере средств.",
+        "Deposit Address": "Адрес для депозита",
+        "Address": "Адрес",
+        "Withdraw submitted! Check your email to approve it": "Заявка на снятие создана! Проверьте ваш email для подтверждения",
+        "Withdraw submitted successfully.": "Вывод средств успешно осуществлен.",
+        "Pending Email Confirmation": "Ожидается подтверждение через email",
+        "An email has been sent to confirm that you authorized this withdraw": "Для подтверждения вывода средств мы отправили письмо на ваш email",
+        "Processing Creation": "Обработка операции",
+        "The wallet service is generating the transaction": "Сервис кошелька осуществляет перевод",
+        "Processing Signing": "Обработка подписи",
+        "The wallet service is signing the transaction": "Сервис кошелька осуществляет подпись перевода",
+        "Processing Send": "Обработка перевода",
+        "The wallet service is sending the signed transaction": "Сервис кошелька осуществляет отправку подписанного перевода",
+        "Sent": "Отправлено",
+        "The withdraw transaction has been sent, but is not yet mined into multiple blocks": "Транзакция на вывод средств была отправлена, однако еще не намайнена в нескольких блоках",
+        "Confirmed": "Подтверждено",
+        "The transaction has been mined into multiple blocks and is confirmed on the network": "Транзакция была намайнена в нескольких блоках и подтверждена в сети",
+        "Canceled": "Отменено",
+        "The withdraw has been canceled, and the funds returned to your account balance": "Вывод средств был отменен. Средства возвращены на баланс вашего аккаунта",
+        "Delayed": "Отложено",
+        "Your withdraw is delayed for an unknown reason. Support has been notified.": "Ваш вывод средств был отложен по неустановленным причинам. Мы уже работаем над причиной.",
+        "Your withdraw is delayed because we are waiting for change utxos to confirm": "Ваш вывод средств был отложен поскольку мы ждем изменения UTXOs для подтверждения",
+        "Delayed for Cold Wallet": "Отложено из-за холодного кошелька",
+        "Your withdraw is delayed because we need to move funds out of cold storage": "Ваш вывод средств был отложен поскольку нам необходимо вывести средства из холодного кошелька",
+        "Transaction Orphaned": "Транзакция зависла",
+        "The withdraw transaction has been orphaned and must be resent. Staff are aware and will take action soon.": "Транзакция на вывод средств зависла и должна быть заново отправлена. Мы уже в курсе и скоро все решим.",
+        "An unrecognized status": "Неопознанный статус",
+        "Confirming Sweep": "Подтверждение отправки перевода",
+        "Your deposit is being swept to our central wallet": "Ваш депозит был отправлен на наш центральный кошелек",
+        "Sending Sweep": "Отправка перевода",
+        "Processing Sweep": "Обработка перевода",
+        "Pending Confirmation": "Ожидается подтверждение",
+        "Waiting for the network to confirm the transaction": "Ожидается подтверждение перевода сетью",
+        "Credited": "Подтверждено",
+        "The deposit has been credited to your account": "Депозит был внесен на баланс вашего аккаунта",
+        "Orphaned": "Ошибка",
+        "The deposit transaction has been superceded by a different transaction and will never confirm": "Депозитная транзакция была заменена другой и никогда не будет подтверждена",
+        "Receive Processed": "Получение обработки",
+        "We have processed your incoming deposit": "Мы обработали ваш входящий депозит",
+        "Receive Broadcasted": "Уведомление о переводе",
+        "We have submitted information related to your incoming deposit to the network": "Мы отправили информацию о вашем входящем депозите в сеть",
+        "Sweep Receive Pending": "Ожидается подтверждение перевода",
+        "We are waiting for the network to return information about the sweep": "Ожидается, когда сеть вернет информацию о переводе",
+        "Sweep Receive Processed": "Подтверждение перевода обработано",
+        "We have processed the sweep for your incoming deposit": "Мы обработали запрос на ваш входящий депозит",
+        "Sweep Receive Sent": "Отправлено подтверждение перевода",
+        "We have broadcasted the sweep for your incoming deposit": "Мы уведомили запрос на ваш входящий депозит",
+        "Currency delisted": "Актив удален с размещения",
+        "Currency to be delisted on": "Актив будет удален с размещения"
+    },
+    "Currency.Status": {
+        "Status ok, no known issues at this time": "Статус ОК, никаких проблем на данный момент",
+        "Withdraws and deposits for this currency are temporarily disabled due to maintenance or network issues": "Вывод средств и депозиты для этого актива временно отключены из-за проблем с обслуживанием или сетью",
+        "This currency is offline, deposits and withdraws are not currently accepted": "Этот актив недоступен, депозиты и вывод средств на данный момент не обрабатываются",
+        "Withdraws and deposits for this currency are enabled but may be delayed for this currency due to network issues or maintenance": "Вывод средств и депозиты для этого актива разрешены, но могут быть отложены из-за проблем с сетью или технического обслуживания",
+        "This currency is due to be delisted or has been delisted, deposits are no longer accepted, please make withdrawals as soon as possible": "Этот актив скоро будет удален из списка или уже был удален, депозиты больше не принимаются, пожалуйста, сделайте вывод средств как можно скорее"
+    },
+    "DepositModal": {
+        "Please confirm you have copied the data": "Пожалуйста, подтвердите, что вы скопировали данные",
+        "This currency requires data to be sent with your transaction. Failure to include the data field will result in your deposit not being credited to your account!": "Этот актив требует отправки данных с вашей транзакцией. Если вы не укажете поле данных, ваш депозит не будет зачислен!",
+        "I understand the data field is necessary": "Я понимаю, что поле данных необходимо для заполнения",
+        "You must verify your email address before depositing": "Вы должны подтвердить свой email перед отправкой депозита",
+        "New address": "Новый адрес",
+        "Transaction Data": "Данные перевода"
+    },
+    "WithdrawModal": {
+        "Two-Factor Auth Code": "Код двухфакторной аутентификации",
+        "Withdraws have been disabled for this currency. Please contact support if you believe this is in error.": "Функция вывода средств была отключена для этого актива. Пожалуйста, свяжитесь со службой поддержки, если вы считаете, что это ошибка.",
+        "Withdraws have been disabled for your user. Please contact support if you believe this is in error.": "Функция вывода средств была отключена для этого пользователя. Пожалуйста, свяжитесь со службой поддержки, если вы считаете, что это ошибка.",
+        "This currency is delisted, please withdraw all your funds by": "Этот актив удален из размещения, пожалуйста, выведите все свои средства",
+        "Withdraw fee": "Комиссия за вывод средств",
+        "Withdraw minimum": "Минимальный вывод средств",
+        "Over Limit": "Лимит превышен",
+        "What are the withdrawal limits?": "Каковы лимиты на вывод средств?"
+    },
+    "DepositRow": {
+        "Deposit ID": "ID депозита",
+        "Confirms": "Подтверждения",
+        "Transaction ID": "ID транзакции"
+    },
+    "TransferRow": {
+        "Transfer ID": "ID перевода",
+        "Sender Email": "Email отправителя",
+        "Transfer Code": "Код перевода"
+    },
+    "WithdrawRow": {
+        "Withdraw ID": "ID вывода средств",
+        "Destination Address": "Адрес получателя",
+        "Connection Attempts": "Попытки соединения",
+        "Last Failure Reason": "Причина последней ошибки"
+    },
+    "ResendApproveEmail": {
+        "Withdraw already approved": "Операция на вывод средств уже одобрена"
+    },
+    "TFA": {
+        "Key": "Ключ",
+        "Install the Google Authenticator or Authy app on your phone and scan the QR code below.Then type the provided authenticator code in below to activate.": "Установите приложение Google Authenticator или Authy на свой телефон и отсканируйте приведенный ниже QR-код. Затем для активации введите указанный ниже код аутентификатора.",
+        "Make a backup of the QR code or key before enabling. If you lose access to your phone and do not have a backup you will lose access to your account!": "Сделайте резервную копию QR-кода или ключа перед включением. Если вы потеряете доступ к своему телефону и не получите резервную копию, вы потеряете доступ к своей учетной записи!",
+        "2FA Enroll": "2FA Регистрация",
+        "Print a backup": "Распечатать резервную копию",
+        "Enroll": "Регистрация",
+        "Two Factor Auth": "ДВухфакторная аутентификация",
+        "What is 2FA?": "Что такое 2FA?",
+        "recommend2FA": "Настоятельно рекомендуется <b>включить двухфакторную аутентификацию</b> на вашем аккаунте, поскольку она защищает ваши средства от кражи со стороны многих форм кейлоггеров и троянов. После включения ваш код аутентификатора потребуется для снятия средств со счета, входа в систему, смены пароля и других привилегированных действий учетной записи.",
+        "Confirm 2FA Disable": "Подтвердить отключение 2FA",
+        "Disable 2FA": "Отключить 2FA"
+
+    },
+    "APIKeys": {
+        "Revoke key": "Аннулировать ключ",
+        "New API Key": "Новый API ключ",
+        "This key will not be displayed again! Store it in a safe place.": "Этот ключ больше не будет отображаться! Храните его в безопасном месте.",
+        "Key ID": "ID ключа",
+        "Secret Key": "Секретный ключ",
+        "Confirm API key removal": "Подтвердить удаление API ключа",
+        "Applications that use this key will no longer work. Are you sure you want to this API key?": "Приложения, использующие этот ключ, больше не будут работать. Вы уверены, что хотите использовать этот API ключ?",
+        "API Keys": "API ключи",
+        "+ New API Key": "+ Новый API ключ",
+        "suggestKeyCreate": "У вас еще нет API ключей. Хотите <1>создать</1>?",
+        "Create new API Key": "Создать новый API ключ",
+        "Description": "Описание",
+        "Permissions": "Права доступа",
+        "Trade - Placing & canceling orders": "Торговля - Размещение & отмена ордеров",
+        "Deposit - Get deposit addresses": "Депозит - Получить адреса для депозита",
+        "Info - Get balances, trades, etc": "Информация - Получить информацию о балансе, торговлях и т.д.",
+        "Withdraw - Allows withdraw of funds": "Вывод средств - Разрешает вывод средств",
+        "Issue key": "Issue key"
+    },
+    "Change Password": {
+        "Change Password": "Изменить пароль",
+        "Old Password": "Старый пароль",
+        "New Password": "Новый пароль",
+        "Confirm Password": "Подтвердить пароль"
+    },
+    "Account": {
+        "User Details": "Детали пользователя",
+        "Email sent. Check your email to finish verifying.": "Письмо отправлено. Проверьте свой email адрес, чтобы закончить верификацию.",
+        "This action is irreversable. Are you sure you want to delete this email address?": "Это действие необратимо. Вы уверены, что хотите удалить этот email?",
+        "Email deleted": "Email удален",
+        "Failed to delete email! Got error:": "Не удалось удалить email! Ошибка:",
+        "Withdraws and other security related information will be sent to your primary email. Please make sure this email address is secure": "Вывод средств и другая информация, связанная с безопасностью, будет отправлена на ваш основной email. Пожалуйста, убедитесь, что этот email является безопасным",
+        "Confirmation email sent. Please check your email": "Письмо с подтверждением отправлено. Пожалуйста, проверьте ваш email",
+        "Failed to update email! Got error": "Не удалось обновить email!"
+    },
+    "Referrals": {
+        "Your Referral Info": "Информация о вашем реферале",
+        "Your Referral Link": "Ваша реферальная ссылка",
+        "No payouts found": "Никаких выплат не обнаружено",
+        "Referral Payout": "Реферальная выплата",
+        "Payout ID": "ID выплаты",
+        "Total referrals": "Кол-во рефералов"
+    },
+    "Verification": {
+        "Verification Status": "Статус верификации",
+        "Email Verification": "Подтверждение email",
+        "Unconfirmed Email": "Неподтвержденный email",
+        "Email Confirmed": "Email подтвержден",
+        "Successfully sent email confirmation!": "Подтверждение успешно отправлено на email!",
+        "Verification Level": "Уровень верификации",
+        "Verify": "Верифицировать",
+        "Level": "Уровень",
+        "Documents Required": "Необходимы документы",
+        "Pending Review": "Ожидается обработка",
+        "Face Photo": "Фото лица",
+        "Government Issued Photo ID": "Удостоверение личности с фотографией, выданное государственным органом",
+        "Approved": "Подтверждено",
+        "Rejected": "Отказано",
+        "Pending": "Ожидается",
+        "Upload": "Загрузить",
+        "Reject Code": "Отменить код",
+        "Reject Comment": "Отменить комментарий",
+        "Photo ID": "ID фото",
+        "Preview": "Превью",
+        "Negative example selfie. No blurry pictures": "Неправильное фото. Фото не должно быть размытого качества",
+        "Negative example selfie. No facial coverings": "Неправильное фото. На лице не должно быть посторонних предметов",
+        "Governement ID example": "Пример удостоверения личности с фотографией, выданного государственным органом",
+        "Negative ID example. Don't obscure ID": "Неправильное удостоверение. Не скрывайте удостоверение личности",
+        "Upload a": "Загрузить",
+        "Upload a valid (non-expired) government issued photo ID. For faster verification we recommend US customers upload a drivers licence, and for non-US customers it's best to use your international passport.": "Загрузите действительное (не истекшее) удостоверение личности с фотографией. Для более быстрой проверки мы рекомендуем клиентам из США загрузить водительские права, а для клиентов за пределами США лучше всего использовать ваш загранпаспорт.",
+        "If you are uploading your passport, the picture of it needs to include the entire passport or it will be rejected.": "Если вы загружаете свой паспорт, отправляйте все его страницы. В противном случае он будет отклонен.",
+        "If any part of the ID or passport is cut off it is likely to be rejected": "Если какая-либо часть удостоверения личности или паспорта будет отрезана, паспорт может быть отклонен",
+        "Date of Birth on your ID must have a full 4 digit year": "Дата рождения, указанная в вашем удостоверении личности, должна содержать год из четырех цифр",
+        "Upload an identity verification photo (selfie). It must include your face with no obscuring headwear (no sunglasses or hats). Face front with your face fully visible, while holding a piece of paper with the date, full name, and the word \"qTrade\".": "Загрузите фото с вашим лицом (селфи). На фото должно быть ваше лицо без головных уборов (без солнцезащитных очков или шляп). На фото должно быть хорошо видно ваше лицо, а также лист бумаги с текущей датой, полным ФИО и словом \"qTrade\".",
+        "Add new files": "Добавить новые файлы",
+        "uploadLimit": "<b>Внимание:</b> Макс. размер файла 5МБ",
+        "Confirm your information": "Подтвердить информацию",
+        "Please confirm your email first": "Пожалуйста, для начала подтвердите свой email",
+        "First Name": "Имя",
+        "Last Name": "Фамилия",
+        "Date of Birth": "Дата рождения",
+        "Country": "Страна",
+        "State": "Штат",
+        "City": "Город",
+        "Address": "Адрес",
+        "Select Country": "Выбрать страну",
+        "Submitted verification level 1 info!": "Отправлена информация для верификации уровня 1!"
+    },
+    "AboutUs": {
+        "About Us": "О нас"
+    },
+    "AML": {
+        "AML/KYC Policy": "AML/KYC Политика"
+    },
+    "ListingGuidelines": {
+        "Listing Guidelines": "Руководство по размещению"
+    },
+    "Listings": {
+        "Listings": "Размещения"
+    },
+    "Privacy": {
+        "Privacy Policy": "Политика конфиденциальности"
+    },
+    "Terms": {
+        "Terms of Service": "Условия пользования"
+    },
+    "AccountActivity": {
+        "Account Login": "Логин аккаунта",
+        "Password Changed": "Пароль изменен",
+        "Password Reset Requested": "Запрошено изменение пароля",
+        "Withdraw Requested": "Запрошен вывод средств",
+        "Withdraw Started": "Начался вывод средств",
+        "Details": "Детали",
+        "User Agent": "User Agent",
+        "IP": "IP",
+        "2FA Enabled": "2FA Включена",
+        "2FA Disabled": "2FA Выключена",
+        "Withdraw Address Requested": "Запрошен адрес для вывода средств",
+        "Withdraw Address Approved": "Вывод средств одобрен",
+        "Unknown Type": "Неизвестный тип"
+    },
+    "ManageAddresses": {
+        "Add Approved Withdraw Address": "Добавить подтвержденный адрес для вывода средств",
+        "Select Currency": "Выбрать актив",
+        "Revoke Approved Withdraw Address": "Аннулировать подтвержденный адрес для вывода средств",
+        "Applications that use this address will no longer work. Are you sure you want to revoke this approved address?": "Приложения, использующие этот адрес, больше не будут работать. Вы уверены, что хотите отменить этот утвержденный адрес?",
+        "Address removed successfully": "Адрес успешно удален",
+        "Approved withdraw addresses": "Утвержденные адреса для вывода средств",
+        "Revoke Address": "Аннулировать адрес"
+    }
+}
