@@ -22,7 +22,7 @@
         "Withdrawal": "Вывод средств",
         "No data to display": "Нет данных для отображения",
         "Digital Asset Exchange": "Биржа цифровых активов",
-        "US based digital asset exchange with trading UI and JSON API. We list original development coins.": "Американская биржа цифровых активов с удобным интерфейсом и поддержкой JSON API. Мы добавляем только качественные активы",
+        "US based digital asset exchange with trading UI and JSON API. We list original development coins.": "Американская биржа цифровых активов с удобным интерфейсом и поддержкой JSON API. Мы добавляем только качественные активы от самих разработчиков",
         "Auth Code": "Код авторизации",
         "2FA Code": "2FA Код",
         "Cancel": "Отменить",
@@ -81,13 +81,13 @@
         "Unverified": "Неверифицирован",
         "Withdraw limit": "Лимит минимального вывода средств",
         "now": "сейчас",
-        "Unknown": "Неизвестный",  
+        "Unknown": "Неопределенно",
         "Unknown Success Code": "Неизвестный код",
         "Captcha Required": "Требуется капча",
         "Captcha must be completed": "Пройдите проверку капчей",
         "Two factor authentication is required to use this feature": "Для использования этой функции активируйте двухфакторную аутентификацию",
         "Email confirmation sent! Please check your email": "Email с подтверждением был успешно отправлен! Пожалуйста, проверьте вашу почту",
-        "Label": "Label",
+        "Label": "Описание",
         "Continue": "Продолжить"
     },
     "errorCodes": {
@@ -120,7 +120,7 @@
         "startVerification": "Начать верификацию <1>Уровень 1</1>"
     },
     "Signup": {
-        "Sign Up" : "Регистрация",
+        "Sign Up": "Регистрация",
         "Password": "Пароль",
         "Pass Confirm": "Подтверждение пароля",
         "ToSAgree": "Я согласен с <1>Условиями пользования</1> и <3>Политикой конфиденциальности</3>"
@@ -133,14 +133,14 @@
         "Important Notice": "Важное замечание"
     },
     "ReferralProgram.howItWorks": {
-        "howItWorks1":"Начните с посещения страницы <1> рефералов </1>. С этой страницы вы можете скопировать свою реферальную ссылку и отправить ее своим друзьям.",
+        "howItWorks1": "Начните с посещения страницы <1> рефералов </1>. С этой страницы вы можете скопировать свою реферальную ссылку и отправить ее своим друзьям.",
         "Your friends can visit the referral link and sign up for a qTrade account.": "Ваши друзья могут перейти по реферальной ссылке и зарегистрировать аккаунт на qTrade.",
         "They will then complete their account and initiate buy or sell orders.": "После подтверждение аккаута они смогут выставлять ордера на покупку или продажу",
         "howItWorks4": "В конце месяца вы получите награду на свой аккаунт в размере 10% от торговых комиссий, уплаченных вашими другом. Вы можете просмотреть прошлые выплаты на странице <1>рефералов</1>."
     },
     "ReferralProgram.moreDetails": {
         "When someone clicks your link, you will get credit if they sign up any time in the next 90 days from that computer, even if they close the browser and come back later. If a user clicks someone else's referral link before signing up it will use their code": "В случае, если кто-то зарегистрируется с помощью вашей ссылки, вы получаете вознаграждение, даже если он зарегистрируется в любое время в течение следующих 90 дней со своего компьютера или даже если он закроет браузер и вернется позже. Если же пользователь нажмет на чужую реферальную ссылку перед регистрацией, он задействует чужой код",
-        "You may link to any page on the website with your referral code and it will work as expected.": "You may link to any page on the website with your referral code and it will work as expected.",
+        "You may link to any page on the website with your referral code and it will work as expected.": "Вы можете привязать реферальную ссылку к любой странице ваб-сайта. Функционал ссылки останется прежним",
         "After 1 year you will no longer recieve a payouts for a user referred with your code.": "По прошествии одного года, вы больше не будете получать награды от пользователя, который зарегистрировался через вашу реферальную ссылку.",
         "There is no limit to the number of people you can refer, although we do reserve the right to adjust or change the referral program rules in the future.": "Количество реферальных друзей неограниченно, хотя мы оставляем за собой право корректировать или изменять правила реферальной программы в будущем.",
         "Payments may not go out on the first, but when it does go out the payment period will be included in the payment details.": "Изначально награда может прийти не сразу, однако как только она будет отправлена, вы увидите период доставки в деталях платежа.",
@@ -166,8 +166,8 @@
         "Cancel": "Отменить"
     },
     "Home": {
-        "US based exchange trading up and coming cryptocurrencies": "US based exchange trading up and coming cryptocurrencies",
-        "We list original dev coins": "We list original dev coins",
+        "US based exchange trading up and coming cryptocurrencies": "Американская биржа, торгующая потенциально новыми криптовалютами",
+        "We list original dev coins": "Мы добавляем только качественные активы от самих разработчиков",
         "Learn more about the coins we list": "Узнайте больше об активах, которые мы размещаем",
         "Some coins are changing the way we think about distributed ledger technology": "Некоторые активы меняют наше представление о том, как устроена технология децентрализованного хранилища",
         "Learn more": "Узнать больше",
@@ -263,7 +263,7 @@
         "Your Recent Orders": "Ваши недавние ордера"
     },
     "MarketOrderbook": {
-        "Row Total": "Row Total", 
+        "Row Total": "Общая сумма",
         "Sum": "Сумма"
     },
     "UserBuySell": {
@@ -298,12 +298,12 @@
         "Password reset successfully!": "Пароль успешно изменен!"
     },
     "TokenRedeem": {
-        "Token Redeem": "Token Redeem"
+        "Token Redeem": "Выкуп токена"
     },
     "OpenOrders": {
-        "Order Count": "Order Count",
+        "Order Count": "Количество ордеров",
         "Cancel Order": "Отменить ордер",
-        "Total Units": "Сумма единиц", 
+        "Total Units": "Сумма единиц",
         "Remaining Units Amount": "Количество оставшихся единиц",
         "Price Per Unit": "Цена за единицу",
         "Order cancelled successfully": "Ордер успешно отменен"
@@ -331,7 +331,7 @@
         "Hide 0 Balances": "Спрятать нулевые балансы",
         "Wallet": "Кошелек",
         "Available balance": "Доступно",
-        "In orders": "In orders",
+        "In orders": "В процессе заполнения",
         "Escrowed": "Депонируются",
         "Transactions": "Переводы",
         "All transactions loaded": "Загружены все переводы",
@@ -442,7 +442,6 @@
         "recommend2FA": "Настоятельно рекомендуется <b>включить двухфакторную аутентификацию</b> на вашем аккаунте, поскольку она защищает ваши средства от кражи со стороны многих форм кейлоггеров и троянов. После включения ваш код аутентификатора потребуется для снятия средств со счета, входа в систему, смены пароля и других привилегированных действий учетной записи.",
         "Confirm 2FA Disable": "Подтвердить отключение 2FA",
         "Disable 2FA": "Отключить 2FA"
-
     },
     "APIKeys": {
         "Revoke key": "Аннулировать ключ",
