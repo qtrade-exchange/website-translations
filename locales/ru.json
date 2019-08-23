@@ -1,6 +1,6 @@
 {
     "Errors": {
-        "Failed to send email! Got error:": "Не получилось отправить email! Ошибка:",
+        "Failed to send email!": "Не получилось отправить email!",
         "Unknown error": "Неизвестная ошибка"
     },
     "common": {
@@ -195,11 +195,16 @@
         "PoD and fast blocks provide very fast transaction finality": "PoD и быстрая генерация блоков обеспечивают быструю пропускную способность",
         "Scalable, can support thousands of transactions/second": "Масштабируем, может поддерживать тысячи транзакций в секунду"
     },
+    "Home.CRUZ": {
+        "Designed to be conceptually simple and extremely developer-friendly": "Designed to be conceptually simple and extremely developer-friendly",
+        "Developed in Go to attract a wider variety of developer interest": "Developed in Go to attract a wider variety of developer interest",
+        "Web-friendly Peer Protocol, peer communication handled via secure WebSockets": "Web-friendly Peer Protocol, peer communication handled via secure WebSockets"
+    },
     "Home.Integration": {
         "submitToken": "Добавьте ваш токен в <1>листинг</1>",
         "API": "Получите данные о торгах или даже добавьте собственный торговый бот с нашим <1>JSON API</1>",
         "improveAPI": "Узнайте как <1>улучшить API вашего токена</1> для быстрой интеграции с нами",
-        "Or just write your own qTrade integration: Coming soon.": "Или просто создайте собственную qTrade интеграцию: Скоро."
+        "selfIntegrate": "Или просто создайте собственную qTrade интеграцию (Скоро)"
     },
     "Home.Steps": {
         "Get started in a few minutes": "Начните всего за пару минут",
@@ -487,10 +492,10 @@
         "Email sent. Check your email to finish verifying.": "Письмо отправлено. Проверьте свой email адрес, чтобы закончить верификацию.",
         "This action is irreversable. Are you sure you want to delete this email address?": "Это действие необратимо. Вы уверены, что хотите удалить этот email?",
         "Email deleted": "Email удален",
-        "Failed to delete email! Got error:": "Не удалось удалить email! Ошибка:",
+        "Failed to delete email!": "Не удалось удалить email!",
         "Withdraws and other security related information will be sent to your primary email. Please make sure this email address is secure": "Вывод средств и другая информация, связанная с безопасностью, будет отправлена на ваш основной email. Пожалуйста, убедитесь, что этот email является безопасным",
         "Confirmation email sent. Please check your email": "Письмо с подтверждением отправлено. Пожалуйста, проверьте ваш email",
-        "Failed to update email! Got error": "Не удалось обновить email!"
+        "Failed to update email!": "Не удалось обновить email!"
     },
     "Referrals": {
         "Your Referral Info": "Информация о вашем реферале",
